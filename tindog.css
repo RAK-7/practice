@@ -1,0 +1,666 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+}
+.header{
+    background-color: #ff4c68;
+    height: 37.5rem;
+    overflow: hidden;
+}
+.container{
+    padding: 80px 210px;
+}
+.headernav{
+    display: flex;
+    justify-content: space-between;
+}
+.tindog{
+    color: white;
+    font-size: 40px;
+    font-weight: bolder;
+}
+.topmenu{
+    color: rgb(213, 185, 185);
+    font-size: large;
+    padding-right: 80px;
+}
+.headercontent{
+    display: flex;
+    padding-top: 50px;   
+}
+.main1{
+    width: 60%;
+}
+h1{
+    font-size:60px;
+    color: white;
+    font-weight: 800;
+}
+.btn{
+    display: flex;
+    gap: 25px;
+}
+.button1{
+    border-radius: 5px;
+    font-size: 25px;
+    justify-items: center;
+    height: 50px;
+    width: 170px;
+    background-color: #292524;
+    color: white;
+}
+.button1:hover{
+    background-color: black;
+}
+.button2{
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid white;
+    color: white;    
+    font-size: 25px;
+    justify-items: center;
+    height: 50px;
+    width: 170px;
+}
+.button2:hover{
+    background-color: white;
+    color: rgb(0, 0, 0);
+    filter: initial;
+}
+.playstore{
+    height: 25px;
+    padding-top: 5px;
+    filter: invert();
+}
+.playstore:hover{
+
+    filter: initial;
+}
+img{
+    width: 305px;
+    height: 600px;
+    transform: rotate(25deg);
+}
+.main2{
+    display: flex;
+    justify-content: space-around;
+    padding: 100px;
+    text-align: center;
+}
+.upper{
+    padding: 80px;
+}
+.upcontent{
+    width: 23%;
+}
+.size-6{
+    height: 100px;
+    width: 100px;
+    color: #ef8172;
+}
+.size-6:hover{
+    color: #ff4c68;
+}
+.topic{
+color: black;
+font-size: x-large;
+}
+p1{
+    color: rgb(171, 150, 150);
+}
+.mid{
+    color: white;
+    background-color: #ef8172;
+    padding: 100px 200px;
+    justify-items: center;
+    text-align: center;
+}
+.midtext{
+    font-size: 50px;
+}
+.midimg{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.dog{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    transform: none;
+}
+.midmore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+.midimage1{
+    height: 80px;
+    width: 200px;
+    transform: none;
+}
+.midimage2{
+    height: 50px;
+    width: 200px;
+    transform: none;
+}
+.midimage3{
+    height: 50px;
+    width: 200px;
+    transform: none;
+}
+.lower{
+    padding: 100px;
+    text-align: center;
+
+}
+.lowertext{
+    color: black;
+    font-size: 60px;
+}
+p3{
+    color: rgb(137, 123, 123);
+}
+.lowerdiv{
+    display: flex;
+    gap: 50px;
+}
+.pricebox1{
+    border: 1px solid rgb(137, 123, 123);
+    border-radius: 5px;
+    width: 30%;
+    height: 21rem;
+}
+.pricebox2{
+    border: 1px solid rgb(137, 123, 123);
+    border-radius: 5px;
+    width: 30%;
+    height: 21rem;
+}
+.pricebox3{
+    border: 1px solid rgb(137, 123, 123);
+    border-radius: 5px;
+    width: 30%;
+    height: 23rem;
+}
+.priceplan{
+    background-color: rgb(247, 247, 247);
+    padding: 20px;
+    font-weight: 500;
+    border-radius: 5px
+}
+.lowbtn1{
+    padding: 15px 120px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: large;
+}
+.lowbtn1:hover{
+    background-color: rgb(52, 58, 64);
+    color: white;
+}
+.lowbtn2{
+    padding: 15px 120px;
+    background-color: rgb(52, 58, 64);
+    color: white;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    font-size: large;
+}
+.lowbtn2:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+.bottom{
+    background-color: #ff4c68;
+    color: white;
+    text-align: center;
+    justify-items: center;
+    padding: 130px;
+}
+.bottomtext{
+    font-size: 27px;
+    font-weight: 800;
+}
+.downbtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+.button3{
+    border-radius: 10px;
+    font-size: 25px;
+    justify-items: center;
+    height: 50px;
+    width: 170px;
+    background-color: rgb(24, 23, 23);
+    color: white;
+}
+.button3:hover{
+    background-color: black;
+}
+.button4{
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid rgb(255, 255, 255);
+    font-size: 25px;
+    justify-items: center;
+    height: 50px;
+    width: 170px;
+    color: rgb(0, 0, 0);    
+
+}
+.button4 .playstore{
+    filter: none;
+
+}
+.button4:hover{
+    background-color: rgb(247, 240, 240);
+    color: rgb(0, 0, 0);
+}
+.footer{
+    text-align: center;
+    padding: 130px;
+}
+.social{
+    height: 20px;
+}
+p5{
+    color: rgb(137, 123, 123);
+}
+
+@media (max-width: 1250px) {
+    .header{
+        height: auto;
+    }
+    .container{
+        padding: 50px 100px;
+    }
+    .topmenu{
+        color: rgb(213, 185, 185);
+        font-size: large;
+        padding-right: 10px;
+    }
+    img{
+        width: 305px;
+        height: 600px;
+        transform: none;
+    }
+    .main2{
+        display: flex;
+        justify-content: space-around;
+        padding: 80px;
+        text-align: center;
+    }
+    .upcontent{
+        width: 23%;
+    }
+    .size-6{
+        height: 100px;
+        width: 100px;
+        color: #ef8172;
+    }
+    .mid{
+        color: white;
+        background-color: #ef8172;
+        padding: 100px 150px;
+        justify-items: center;
+        text-align: center;
+    }
+    .midmore{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 90px;
+    }
+    .lowertext{
+        color: black;
+        font-size: 45px;
+    }
+    .lowbtn1{
+        padding: 13px 100px;
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 5px;
+        font-size: large;
+    }
+    .lowbtn2{
+        padding: 13px 100px;
+        background-color: rgb(52, 58, 64);
+        color: white;
+        border: 1px solid rgb(0, 0, 0);
+        border-radius: 5px;
+        font-size: large;
+    }
+}
+@media (max-width: 1130px) {
+    .header{
+        height: auto;
+    }
+    .container{
+        padding: 50px 110px;
+    }
+    .topmenu{
+        color: rgb(213, 185, 185);
+        font-size: large;
+        padding-right: 5px;
+    }
+    .headercontent{
+        display: flex;
+        flex-direction: column;
+        padding-top: 25px;   
+        align-items: center;
+    }
+    .meet{
+        text-align: center;
+    }
+    img{
+        width: 305px;
+        height: 600px;
+        transform: none;
+    }   
+    .button1{
+        font-size: 25px;
+        justify-items: center;
+        border-radius: 10px;
+        height: 65px;
+        width: 190px;
+        background-color: rgb(24, 23, 23);
+        color: white;
+    }
+    .button1:hover{
+        background-color: black;
+    }
+    .button2{
+        background-color: transparent;
+        border-radius: 10px;
+        border: 1px solid white;
+        color: white;    
+        font-size: 25px;
+        justify-items: center;
+        height: 65px;
+        width: 190px;
+    }
+    .button2:hover{
+        background-color: white;
+        color: rgb(0, 0, 0);
+        filter: initial;
+    }
+    .playstore{
+        height: 25px;
+        padding-top: 5px;
+        filter: invert();
+    }
+    .playstore:hover{
+    
+        filter: initial;
+    }
+    .main2{
+        display: flex;
+        justify-content: space-between;
+        padding: 60px;
+        text-align: center;
+    }
+    .mid{
+        color: white;
+        background-color: #ef8172;
+        padding: 100px 130px;
+        justify-items: center;
+        text-align: center;
+    }
+    .midmore{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 70px;
+    }
+    .lowertext{
+        color: black;
+        font-size: 30px;
+    }
+    .lowbtn1{
+        margin-top: 40px;
+        padding: 10px 57px;
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 5px;
+        font-size: large;
+    }
+    .lowbtn2{
+        margin-top: 35px;
+        padding: 10px 57px;
+        background-color: rgb(52, 58, 64);
+        color: white;
+        border: 1px solid rgb(0, 0, 0);
+        border-radius: 5px;
+        font-size: large;
+    }
+}
+@media (max-width: 875px) {
+    .header{
+        height: auto;
+    }
+    .container{
+        padding: 40px 50px;
+    }
+    .topmenu{
+        color: rgb(213, 185, 185);
+        font-size: large;
+        padding-right: 5px;
+    }
+    .btn{
+        padding: 0px;
+        display: flex;
+    }
+    .main2{
+        display: flex;
+        padding: 40px;
+        text-align: center;
+    }
+    .mid{
+        color: white;
+        background-color: #ef8172;
+        padding: 100px 100px;
+        justify-items: center;
+        text-align: center;
+    }
+    .midmore{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 60px;
+    }
+    .lowerdiv{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+    .pricebox1{
+        border: 1px solid rgb(137, 123, 123);
+        border-radius: 5px;
+        width: 60%;
+        height: 21rem;
+    }
+    .pricebox2{
+        border: 1px solid rgb(137, 123, 123);
+        border-radius: 5px;
+        width: 60%;
+        height: 21rem;
+    }
+    .pricebox3{
+        border: 1px solid rgb(137, 123, 123);
+        border-radius: 5px;
+        width: 60%;
+        height: 23rem;
+    }
+    .lowbtn1{
+        padding: 13px 100px;
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 5px;
+        font-size: large;
+    }
+    .lowbtn2{
+        padding: 13px 100px;
+        background-color: rgb(52, 58, 64);
+        color: white;
+        border: 1px solid rgb(0, 0, 0);
+        border-radius: 5px;
+        font-size: large;
+    }
+    .footer{
+        text-align: center;
+        padding: 100px;
+    }
+}
+@media (max-width: 660px) {
+    .header{
+        height: auto;
+    }
+    .container{
+        padding: 40px 50px;
+    }
+    .topmenu{
+        color: rgb(213, 185, 185);
+        font-size: large;
+        padding-right: 5px;
+    }
+    .headercontent{
+        display: flex;
+        flex-direction: column;
+        padding-top: 25px;   
+        text-align: center;
+    }
+    .main1{
+        width: 100%;
+    }
+    img{
+        align-self: center;
+        width: 305px;
+        height: 600px;
+        transform: none;
+    }
+    .button1{
+        font-size: 25px;
+        justify-items: center;
+        border-radius: 10px;
+        height: 65px;
+        width: 190px;
+        background-color: rgb(24, 23, 23);
+        color: white;
+    }
+    .button1:hover{
+        background-color: black;
+    }
+    .button2{
+        background-color: transparent;
+        border-radius: 10px;
+        border: 1px solid white;
+        color: white;    
+        font-size: 25px;
+        justify-items: center;
+        height: 65px;
+        width: 190px;
+    }
+    .button2:hover{
+        background-color: white;
+        color: rgb(0, 0, 0);
+        filter: initial;
+    }
+    .playstore{
+        height: 25px;
+        padding-top: 5px;
+        filter: invert();
+    }
+    .playstore:hover{
+        filter: initial;
+    }
+    .btn{
+        margin-left: 100px;       
+        display: flex;
+        flex-direction: column;
+    }
+    .main2{
+        display: flex;
+        flex-direction: column;
+        padding: 40px;
+        text-align: center;
+    }
+    .upcontent{
+        width: 100%;
+    }
+    .mid{
+        color: white;
+        background-color: #ef8172;
+        padding: 100px 70px;
+        justify-items: center;
+        text-align: center;
+    }
+    .midmore{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 60px;
+    }
+    .lowerdiv{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+    .pricebox1{
+        border: 1px solid rgb(137, 123, 123);
+        border-radius: 5px;
+        width: 60%;
+        height: 21rem;
+    }
+    .pricebox2{
+        border: 1px solid rgb(137, 123, 123);
+        border-radius: 5px;
+        width: 60%;
+        height: 21rem;
+    }
+    .pricebox3{
+        border: 1px solid rgb(137, 123, 123);
+        border-radius: 5px;
+        width: 60%;
+        height: 23rem;
+    }
+    .lowbtn1{
+        padding: 10px 45px;
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 5px;
+        font-size: large;
+    }
+    .lowbtn2{
+        padding: 10px 45px;
+        background-color: rgb(52, 58, 64);
+        color: white;
+        border: 1px solid rgb(0, 0, 0);
+        border-radius: 5px;
+        font-size: large;
+    }
+    .downbtn{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+    }
+    .footer{
+        text-align: center;
+        padding: 90px;
+    }
+}
